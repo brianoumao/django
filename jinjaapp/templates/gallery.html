@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+{% block title %}Gallery{% endblock %}
+{% block content %}
+    {% load static %}
+<h2>Here are our images</h2>
+    <img src="{% static 'img/bridge.jpeg' %}" alt="" width="400" height="400">
+    <img src="{% static 'img/tree.jpeg' %}" alt="" width="400" height="400">
+    <img src="{% static 'img/wall.jpeg' %}" alt="" width="400" height="400">
+{% endblock %}
